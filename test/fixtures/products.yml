@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: products
+#
+#  id          :bigint           not null, primary key
+#  name        :string
+#  rate        :float
+#  active      :boolean          default(TRUE)
+#  category_id :bigint
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  rate: 1.5
+  category: one
+
+two:
+  name: MyString
+  rate: 1.5
+  category: two
